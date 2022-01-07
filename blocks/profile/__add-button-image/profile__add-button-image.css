@@ -1,0 +1,10 @@
+.profile__add-button-image {
+    width: 22px;
+    height: 22px;
+}
+
+.profile__add-button-image:hover {
+    cursor: pointer;
+    opacity: 0.6;
+    transform: 0.3s;
+}

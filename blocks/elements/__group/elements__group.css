@@ -1,0 +1,19 @@
+.elements__group {
+    width: 22px;
+    height: 19px;
+    border: none;
+    background-image: url(../../../images/Like.svg);
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.elements__group:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.5s;
+}
+
+.elements__group:active {
+    background-image: url(../../../images/LikeActive.svg);
+    opacity: 100%;
+}
