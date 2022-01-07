@@ -3,7 +3,7 @@
 ### Обзор
 * Описание
 * Используемые технологиии
-* ССылка на проект
+* Сcылка на проект
 
 **Описание**
 
@@ -16,4 +16,4 @@
 
 **Ссылка на проект**
 
-Ознакомиться с проектом можно по <img src="https://img.shields.io/badge/GoTo---%3E-brightgreen"> [ссылке](https://github.com/SalvadorDalli/mesto-project.git)
+Ознакомиться с проектом можно по <img src="https://img.shields.io/badge/GoTo---%3E-brightgreen"> [ссылке](https://salvadordalli.github.io/mesto-project/)
