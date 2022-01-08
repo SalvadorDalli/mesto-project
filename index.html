@@ -1,108 +1,112 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesto</title>
-    <link rel="stylesheet" href="pages/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mesto</title>
+  <link rel="stylesheet" href="pages/index.css">
 </head>
+
 <body class="body">
-    <div class="page">
-      <header class="header">
-        <img class="header__logo" src="images\HeaderLogo.svg" alt="Логотип">
-      </header>
-      <main class="content">
-        <section class="profile">
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="images\HeaderLogo.svg" alt="Логотип">
+    </header>
+    <main class="content">
+      <section class="profile">
         <div class="profile__avatar">
           <img class="profile__avatar-image" src="images\Cousteau.jpg" alt="Аватар">
         </div>
-          <form class="profile__content">
-            <div class="profile__info">
-              <article class="profile__list">
-                <h1 class="profile__title">
+        <form class="profile__content">
+          <div class="profile__info">
+            <article class="profile__list">
+              <h1 class="profile__title">
                   Жак-Ив Кусто
                 </h1>
-                <div class="profile__edit-button-rectangle">
-                  <button class="profile__edit-button" type="button">
-                    <img class="profile__button-image" src="images\EditButton.svg" alt="Кнопка редактирования">
-                  </button>
-                </div>
-              </article>
-              <p class="profile__subtitle">
-                Исследователь океана
-              </p>
-            </div>
-            <div class="profile__add-button-rectangle">
-                <button class="profile__add-button" type="button">
-                  <img class="profile__add-button-image" src="images\AddButton.svg" alt="Кнопка добавления">
+              <div class="profile__edit-button-rectangle">
+                <button class="profile__edit-button" type="button">
+                  <img class="profile__button-image" src="images\EditButton.svg" alt="Кнопка редактирования">
                 </button>
               </div>
-          </form>
-        </section>
-        <section class="elements">
-          <div class="elements__rectangle">
-            <img class="elements__image" src="images\Karachaevo.png" alt="Фото Карачаевск">
-            <article class="elements__container">
-              <h2 class="elements__text">Карачаевск</h2>
-              <button type="button" class="elements__group"></button>  
             </article>
+            <p class="profile__subtitle">
+              Исследователь океана
+            </p>
           </div>
-          <div class="elements__rectangle">
-            <img class="elements__image" src="images\Elbrus.png" alt="Фото Эльбрус">
-            <article class="elements__container">
-              <h2 class="elements__text">Гора Эльбрус</h2>
-              <button type="button" class="elements__group"></button>  
-            </article>
+          <div class="profile__add-button-rectangle">
+            <button class="profile__add-button" type="button">
+              <img class="profile__add-button-image" src="images\AddButton.svg" alt="Кнопка добавления">
+            </button>
           </div>
-          <div class="elements__rectangle">
-            <img class="elements__image" src="images\Dombuy.png" alt="Фото Домбай">
-            <article class="elements__container">
-              <h2 class="elements__text">Домбай</h2>
-              <button type="button" class="elements__group"></button>  
-            </article>
-          </div>
-          <div class="elements__rectangle">
-            <img class="elements__image" src="images\Elbrus.png" alt="Фото Эльбрус">
-            <article class="elements__container">
-              <h2 class="elements__text">Гора Эльбрус</h2>
-              <button type="button" class="elements__group"></button>  
-            </article>
-          </div>
-          <div class="elements__rectangle">
-            <img class="elements__image" src="images\Dombuy.png" alt="Фото Домбай">
-            <article class="elements__container">
-              <h2 class="elements__text">Домбай</h2>
-              <button type="button" class="elements__group"></button>  
-            </article>
-          </div>
-          <div class="elements__rectangle">
-            <img class="elements__image" src="images\Karachaevo.png" alt="Фото Карачаевск">
-            <article class="elements__container">
-              <h2 class="elements__text">Карачаево-Черкессия</h2>
-              <button type="button" class="elements__group"></button>  
-            </article>
-          </div>
-        </section>
-      </main>
-      <footer class="footer">
-        <p class="footer__text">© 2020 Mesto Russia</p>
-      </footer>
-    </div>
-      <div class="popup"> <!--для включения модального окна нужно дополнительно прописать класс popup__opened-->
-      <div class="popup__form">
-        <button class="popup__close" type="button">
-          <img class="popup__close-icon" src="images\Close Icon.svg" alt="кнопка закрытия">
-        </button>
-      </div>
-      <div class="popup__container">
-        <h2 class="popup__title">Редактировать профиль</h2>
-        <form name="profile" class="popup__profile">
-            <input type="text" name="name" class="popup__input" placeholder="Name" value="Жак-Ив Кусто">
-            <input type="text" name="profession" class="popup__input" placeholder="Profession" value="Исследователь океана">
-            <button type="submit" class="popup__save">Сохранить</button>
         </form>
-      </div>
+      </section>
+      <section class="elements">
+        <div class="elements__rectangle">
+          <img class="elements__image" src="images\Karachaevo.png" alt="Фото Карачаевск">
+          <article class="elements__container">
+            <h2 class="elements__text">Карачаевск</h2>
+            <button type="button" class="elements__group"></button>
+          </article>
+        </div>
+        <div class="elements__rectangle">
+          <img class="elements__image" src="images\Elbrus.png" alt="Фото Эльбрус">
+          <article class="elements__container">
+            <h2 class="elements__text">Гора Эльбрус</h2>
+            <button type="button" class="elements__group"></button>
+          </article>
+        </div>
+        <div class="elements__rectangle">
+          <img class="elements__image" src="images\Dombuy.png" alt="Фото Домбай">
+          <article class="elements__container">
+            <h2 class="elements__text">Домбай</h2>
+            <button type="button" class="elements__group"></button>
+          </article>
+        </div>
+        <div class="elements__rectangle">
+          <img class="elements__image" src="images\Elbrus.png" alt="Фото Эльбрус">
+          <article class="elements__container">
+            <h2 class="elements__text">Гора Эльбрус</h2>
+            <button type="button" class="elements__group"></button>
+          </article>
+        </div>
+        <div class="elements__rectangle">
+          <img class="elements__image" src="images\Dombuy.png" alt="Фото Домбай">
+          <article class="elements__container">
+            <h2 class="elements__text">Домбай</h2>
+            <button type="button" class="elements__group"></button>
+          </article>
+        </div>
+        <div class="elements__rectangle">
+          <img class="elements__image" src="images\Karachaevo.png" alt="Фото Карачаевск">
+          <article class="elements__container">
+            <h2 class="elements__text">Карачаево-Черкессия</h2>
+            <button type="button" class="elements__group"></button>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">© 2020 Mesto Russia</p>
+    </footer>
+  </div>
+  <div class="popup">
+    <!--для включения модального окна нужно дополнительно прописать класс popup__opened-->
+    <div class="popup__form">
+      <button class="popup__close" type="button">
+        <img class="popup__close-icon" src="images\Close Icon.svg" alt="кнопка закрытия">
+      </button>
     </div>
+    <div class="popup__container">
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form name="profile" class="popup__profile">
+        <input type="text" name="name" class="popup__input" placeholder="Name" value="Жак-Ив Кусто">
+        <input type="text" name="profession" class="popup__input" placeholder="Profession" value="Исследователь океана">
+        <button type="submit" class="popup__save">Сохранить</button>
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>
