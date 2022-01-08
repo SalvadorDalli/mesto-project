@@ -16,4 +16,4 @@
 
 **Ссылка на проект**
 
-Ознакомиться с проектом можно по <img src="https://img.shields.io/badge/GoTo---%3E-brightgreen"> [ссылке](https://salvadordalli.github.io/mesto-project/)
+Ознакомиться с проектом можно  <img src="https://img.shields.io/badge/GoTo---%3E-brightgreen"> [по ссылке](https://salvadordalli.github.io/mesto-project/)

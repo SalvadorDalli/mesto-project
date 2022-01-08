@@ -8,3 +8,9 @@
     transform: 0.3s;
     opacity: 0.6;
 }
+
+@media screen and (max-width: 630px) {
+    .popup__close-icon {
+        width: 20px;
+    }
+}
