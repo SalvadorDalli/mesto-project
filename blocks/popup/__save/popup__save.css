@@ -13,6 +13,8 @@
     color: #fff;
     transition: 0.3s;
     margin-top: 46px;
+    margin-left: 36px;
+    border: none;
 }
 
 .popup__save:hover {
@@ -26,7 +28,8 @@
         max-width: 238px;
         font-size: 14px;
         line-height: 17px;
-        margin-top: 45px;
+        margin-top: 40px;
+        margin-left: 22px;
         height: 46px;
     }
 }

@@ -10,7 +10,7 @@
 .elements__group:hover {
     cursor: pointer;
     transition: 0.3s;
-    opacity: 0.5s;
+    opacity: 0.5;
 }
 
 .elements__group:active {
