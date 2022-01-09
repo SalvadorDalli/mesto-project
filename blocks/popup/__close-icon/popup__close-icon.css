@@ -1,16 +1,16 @@
 .popup__close-icon {
-    background: none;
-    transition: 0.3s;
+  background: none;
+  transition: 0.3s;
 }
 
 .popup__close-icon:hover {
-    cursor: pointer;
-    transform: 0.3s;
-    opacity: 0.6;
+  cursor: pointer;
+  transform: 0.3s;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 630px) {
-    .popup__close-icon {
-        width: 20px;
-    }
+  .popup__close-icon {
+    width: 20px;
+  }
 }

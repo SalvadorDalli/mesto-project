@@ -1,4 +1,10 @@
 .profile__list {
-    display: flex;
-    width: 336px;
+  display: flex;
+  width: 336px;
+}
+
+@media screen and (max-width: 630px) {
+  .profile__list {
+    margin-bottom: 8px;
+  }
 }
